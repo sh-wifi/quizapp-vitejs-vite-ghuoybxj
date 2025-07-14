@@ -1,1 +1,9 @@
-
+<main>
+  <div>メニューバー</div>
+  <div>問題</div>
+  <div>
+    <button>選択肢1</button>
+    <button>選択肢2</button>
+    <button>選択肢3</button>
+  </div>
+</main>
