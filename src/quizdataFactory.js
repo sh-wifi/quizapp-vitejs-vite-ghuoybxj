@@ -22,7 +22,8 @@ function randomArray(max, len){
 export async function getQuizdataAsync(){
     mondaisu ??= await fetchMondaisuAsync();
     const numberOfTaku = 5;
-    const takuID = randomArray(mondaisu, numberOfTaku); 
+
+    const takuID = randomArray(mondaisu, numberOfTaku);
     const kanjiYomi = await fetchKanjiYomiAsync(takuID);
     const seikai = randomRange(numberOfTaku);
     return {

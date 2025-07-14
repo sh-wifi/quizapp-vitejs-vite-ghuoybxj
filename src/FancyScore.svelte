@@ -21,6 +21,10 @@
     export function getScore(){
         return currentScore;
     }
+
+    export function getRenzokuSeikai() {
+        return renzokuSeikai;
+    }
 </script>
 
 <div class="bg-red-200 flex justify-around text-xl font-bold p-3">
